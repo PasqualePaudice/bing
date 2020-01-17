@@ -8,18 +8,40 @@ body {
   height: 100vh;
 }
 
+body p {
+  display: inline-block;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body a:hover {
+  text-decoration: underline;
+}
+
 .topbar {
-  background: black;
+  background: #d2e1f6;
   height: 40px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.topbar p {
+  margin: 0 30px;
 }
 
 .topMenuBar {
-  background: red;
+  background-color: transparent;
   height: 40px;
 }
 
 main {
-  background: yellow;
+  background-image: url("https://www.bing.com/th?id=OHR.CormorantMackerel_ROW1185541931_1920x1080.jpg&rf=LaDigue_1920x1080.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: calc(100% - 40px * 2 );
 }

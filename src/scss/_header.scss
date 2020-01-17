@@ -1,7 +1,10 @@
 
 .topbar{
-
-    background: black;
+    background: #d2e1f6;
     height: $altezzaBarra;
-
+    display: flex;
+    align-items: center;
+    p{
+      margin: 0 30px;
+    }
 }

@@ -6,4 +6,14 @@
 
 body{
     height: 100vh;
+    p{
+      display: inline-block;
+    }
+    a{
+      text-decoration: none;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+
 }

@@ -1,10 +1,12 @@
 .topMenuBar{
-    background: red;
+    background-color: transparent;
     height: $altezzaBarra;
 }
 
 main{
-    background: yellow;
+    background-image: url('https://www.bing.com/th?id=OHR.CormorantMackerel_ROW1185541931_1920x1080.jpg&rf=LaDigue_1920x1080.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
     height: calc(100% - #{$altezzaBarra} * 2 );
 }
