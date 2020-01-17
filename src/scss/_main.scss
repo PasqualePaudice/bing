@@ -1,0 +1,10 @@
+.topMenuBar{
+    background: red;
+    height: $altezzaBarra;
+}
+
+main{
+    background: yellow;
+    width: 100%;
+    height: calc(100% - #{$altezzaBarra} * 2 );
+}
