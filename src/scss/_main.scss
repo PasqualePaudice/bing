@@ -1,7 +1,57 @@
+.containerTopMenu{
+    width: $larghezzaContainer;
+    margin:0 auto;
+    // background: yellow;
+    a{
+        text-decoration: none;
+        color: white;
+        opacity: 0.8;
+        font-size: 14px;
+        margin-right: 30px;
+        display: flex;
+        align-items: center;
+
+        &:hover{
+            text-decoration: none;
+            opacity: 1;
+        }
+    }
+}
+
 .topMenuBar{
     background-color: transparent;
     height: $altezzaBarra;
+
+    .topMenu-left{
+        height: $altezzaBarra;
+        float: left;
+        display: flex;
+        align-items: center;
+
+
+
+    }
+
+    .topMenu-right{
+        display: flex;
+        align-items: center;
+        float: right;
+        height: $altezzaBarra;
+
+
+
+
+
+    }
+
 }
+
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
+
 
 main{
     background-image: url('https://www.bing.com/th?id=OHR.CormorantMackerel_ROW1185541931_1920x1080.jpg&rf=LaDigue_1920x1080.jpg');
@@ -9,4 +59,19 @@ main{
     background-position: center;
     width: 100%;
     height: calc(100% - #{$altezzaBarra} * 2 );
+}
+
+    .fa-user-circle{
+        margin-left: 5px;
+        font-size: 20px;
+    }
+
+
+
+.fa-trophy{
+    @extend .fa-user-circle;
+}
+
+.fa-bars{
+    @extend .fa-user-circle;
 }
