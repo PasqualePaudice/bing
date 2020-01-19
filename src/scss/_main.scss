@@ -75,3 +75,49 @@ main{
 .fa-bars{
     @extend .fa-user-circle;
 }
+
+
+.container-cerca{
+    width: $larghezzaContainer;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    svg{
+        height: 60px;
+    }
+
+    .ricerca{
+
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+        height: 60px;
+        background: white;
+        border-radius: 10px;
+        width: 600px;
+        position: relative;
+
+        input{
+            height: 40px;
+            width: 500px;
+            border: 0;
+
+
+        }
+
+        .icone-search{
+            position: absolute;
+            color: lightblue;
+            font-size: 30px;
+            right: 15px;
+
+            i:hover{
+                color: blue;
+                cursor: pointer;
+
+            }
+        }
+
+    }
+}
