@@ -1,6 +1,34 @@
 
 footer{
-    background: lightgreen;
+    background-color: #333;
     height: $altezzaBarra;
+    display: flex;
+    align-items: center;
+    .footer-cont{
 
+        width: $larghezzaContainer + 10%;
+        margin: 0 auto;
+        a{
+            color: #666;
+        }
+
+
+
+    }
+}
+
+
+.footer-left{
+
+    float: left;
+
+    small{
+        margin-right: 10px;
+
+    }
+
+}
+
+.footer-right{
+    float: right;
 }

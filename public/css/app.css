@@ -101,7 +101,32 @@ main {
 }
 
 footer {
-  background: lightgreen;
+  background-color: #333;
   height: 40px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+footer .footer-cont {
+  width: 90%;
+  margin: 0 auto;
+}
+
+footer .footer-cont a {
+  color: #666;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-left small {
+  margin-right: 10px;
+}
+
+.footer-right {
+  float: right;
 }
 
